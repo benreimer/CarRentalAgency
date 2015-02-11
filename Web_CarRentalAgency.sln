@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_CarRentalAgency", "Web_CarRentalAgency\Web_CarRentalAgency.csproj", "{D2666BF6-5256-4BCB-A225-3B3277291260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_CarRentalAgency.Tests", "Web_CarRentalAgency.Tests\Web_CarRentalAgency.Tests.csproj", "{BBCA8C76-B66F-47B7-ADF1-8ED8B925931D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://benreimer.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Web_CarRentalAgency.Tests\\Web_CarRentalAgency.Tests.csproj
+		SccProjectName1 = Web_CarRentalAgency.Tests
+		SccLocalPath1 = Web_CarRentalAgency.Tests
+		SccProjectUniqueName2 = Web_CarRentalAgency\\Web_CarRentalAgency.csproj
+		SccProjectName2 = Web_CarRentalAgency
+		SccLocalPath2 = Web_CarRentalAgency
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2666BF6-5256-4BCB-A225-3B3277291260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2666BF6-5256-4BCB-A225-3B3277291260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2666BF6-5256-4BCB-A225-3B3277291260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2666BF6-5256-4BCB-A225-3B3277291260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCA8C76-B66F-47B7-ADF1-8ED8B925931D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCA8C76-B66F-47B7-ADF1-8ED8B925931D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCA8C76-B66F-47B7-ADF1-8ED8B925931D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCA8C76-B66F-47B7-ADF1-8ED8B925931D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

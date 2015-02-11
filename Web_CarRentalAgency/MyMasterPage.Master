@@ -1,0 +1,118 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMasterPage.Master.cs" Inherits="Web_CarRentalAgency.Site1" %>
+
+
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <link href="style.css" rel="stylesheet" type="text/css" />  
+<head runat="server">
+
+<title>modernisme_sliced</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+</head>
+<body bgcolor="#FFFFFF" style="leftmargin=0px; topmargin=0px; marginwidth=0px; marginheight=0px">
+<!-- Save for Web Slices (modernisme_sliced.psd) -->
+<table style="width=1001px; height=1200px;" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+<tr>
+		<td colspan="4">
+			<div id="logo">
+		  <div><a href="Employee.aspx"><img src="images/logo_small.jpg" alt="logo" width="103" height="62" border="0" style="float:left; padding-left:90px; padding-top: 30px; padding-right: 20px; " longdesc="index.html" /></a></div>
+		<div class="company-name">Your Car Rental Agency<span class="content">Find the right car here</span></div></div></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="134" alt="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="6"><div id="left-space"><div class="left-space" title="wholesale china"><a href="http://www.e-globalspot.com"><strong>wholesale china</strong></a></div>
+	  </div></td>
+	  <td rowspan="2">
+			<div class="left_menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About us</a></li>
+        <li><a href="index.html">Our Services</a></li>
+        <li><a href="index.html">Our references</a></li>
+        <li><a href="index.html">Partners</a></li>
+        <li><a href="index.html">Contact us</a></li>
+        </ul>
+        </div></td>
+		<td rowspan="2">
+			<img src="images/index_04.png" width="22" height="640" alt="" /></td>
+		<!-- this is the header image -->
+        <td><div id="header">
+            <!--<div class="header">MODERN WAY</div>
+        <div class="header-sub">OF BUSINESS <br />
+         &amp; SOLUTIONS</div> -->
+
+        </div></td>
+  <td>
+			<img src="images/spacer.gif" width="1" height="299" alt="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="3">
+            <div id="content-main">
+      
+
+          <div>
+                  <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+    </asp:contentplaceholder>
+          </div>
+		</td>
+  <td>
+			<img src="images/spacer.gif" width="1" height="341" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<div id="left-column"><div class="title">LATEST NEWS</div></div></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="68" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><div id="latest-news"><div class="content">
+		  <p>14-07-2010<br />
+		    <a href="index.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non mi nisi, sed mollis nunc. Vestibulum egestas tincidunt lacus...</a></p>
+		  <p>11-05-2010<br />
+		    <a href="index.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non mi nisi, sed mollis nunc. Vestibulum egestas tincidunt lacus...</a></p>
+		  <p>24-04-2010<br />
+		    <a href="index.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non mi nisi, sed mollis nunc. Vestibulum egestas tincidunt lacus...</a></p>
+		  </div></div></td>
+  <td>
+			<img src="images/spacer.gif" width="1" height="269" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="3"><div id="bottom"><div class="buttom"><a href="index.html">HOME</a> <a href="index.html">ABOUT US</a> <a href="index.html">OUR SERVICES</a> <a href="index.html">OUR REFERENCES</a> <a href="index.html">PARTNERS</a> <a href="index.html">CONTACT</a> <a href="index.html">SITEMAP</a></div>
+		</div></td>
+  <td>
+			<img src="images/spacer.gif" width="1" height="53" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="3"><div id="footer">
+		  <div class="buttom">COPYRIGHT (C) 2010 &quot;YOUR SITE&quot;. DESIGN BY <a href="http://www.e-globalspot.com" title="wholesale china"><strong>wholesale china</strong></a></div>
+		</div></td>
+  <td>
+			<img src="images/spacer.gif" width="1" height="36" alt="" /></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+
+
+
+
+
+     <form id="form1" runat="server">  
+
+<div>
+
+
+</div>
+
+
+     </form> 
+</body>
+</html>
